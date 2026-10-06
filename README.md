@@ -11,5 +11,7 @@ Scenes is like place in the real world, such as a city or a school. GameObjects 
 ### Devlog WK2
 
 1 Because the color in unity requires there elementss from 0 to 1, and the float variable best suits to represent a value between 0 and 1.
+
 2 Because _bounce represents the a count of times the ball bounce, it is not a demical, and can't be a bool or string.
+
 3 I forget to write a f and the end of a demical, not I realize if I want to create a value in float but not double, I have to add a f at the end.
