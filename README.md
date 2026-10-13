@@ -17,15 +17,11 @@ Scenes is like place in the real world, such as a city or a school. GameObjects 
 3 I forget to write a f and the end of a demical, not I realize if I want to create a value in float but not double, I have to add a f at the end.
 
 ### Devlog WK3
-
+```csharp
 1 String GetResponse(int friendshipLevel,boolean knowSecret)
-
 2 void SetLightDimness(float sanityLevel)
-
-3 boolean DidPlayerHitBeat(float hitTime,float beatTime,float timeInterval)
-
+/*3*/ boolean DidPlayerHitBeat(float hitTime,float beatTime,float timeInterval)
 or
-
 boolean DidPlayerHitBeat(Vector3 hitPos,Vecctor3 keyPos)
 
 
