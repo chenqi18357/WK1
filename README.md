@@ -14,7 +14,7 @@ Scenes is like place in the real world, such as a city or a school. GameObjects 
 
 2 Because _bounce represents the a count of times the ball bounce, it is not a demical, and can't be a bool or string.
 
-3 I forget to write a f and the end of a demical, not I realize if I want to create a value in float but not double, I have to add a f at the end.
+3 I forget to write a f and the end of a demical, now I realize if I want to create a value in float but not double, I have to add a f at the end.
 
 ### Devlog WK3
 ```csharp
@@ -28,3 +28,4 @@ boolean DidPlayerHitBeat(float hitTime,float beatTime,float timeInterval)
 boolean DidPlayerHitBeat(Vector3 hitPos,Vecctor3 beatPos,float distance)
 ```
 
+Class is like a blueprint for everything(GameObjects, Conponents, parameters in a component, and value), and a Components is like a part of a human(GameObject), the human's blueprint is also a class, the parameters' blueprint in that component is also a class.
