@@ -18,10 +18,13 @@ Scenes is like place in the real world, such as a city or a school. GameObjects 
 
 ### Devlog WK3
 ```csharp
-1 String GetResponse(int friendshipLevel,boolean knowSecret)
-2 void SetLightDimness(float sanityLevel)
-3 boolean DidPlayerHitBeat(float hitTime,float beatTime,float timeInterval)
-or
+// 1
+String GetResponse(int friendshipLevel,boolean knowSecret)
+//2
+void SetLightDimness(float sanityLevel)
+//3
+boolean DidPlayerHitBeat(float hitTime,float beatTime,float timeInterval)
+//or
 boolean DidPlayerHitBeat(Vector3 hitPos,Vecctor3 keyPos,float distance)
-
+```
 
