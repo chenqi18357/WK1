@@ -31,3 +31,7 @@ boolean DidPlayerHitBeat(Vector3 hitPos,Vecctor3 beatPos,float distance)
 Class is like a blueprint for everything(GameObjects, Conponents, parameters in a component, and value), and a Components is like a part of a human(GameObject), the human's blueprint is also a class, the parameters' blueprint in that component is also a class.
 
 The ball gets extreamly bright because every time it bounce, the velocity will be multipulate by the _speedMultiplier, so the formular of velocity is original*_speedMultiplier^bounceTimes.
+
+### Devlog WK4 Group#7
+
+1 
