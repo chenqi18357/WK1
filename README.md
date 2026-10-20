@@ -35,3 +35,11 @@ The ball gets extreamly bright because every time it bounce, the velocity will b
 ### Devlog WK4 Group#7
 
 1 
+
+collider and rigidbody(kenetic) for cat, because it is only controlled by player, shouldn't affect by collusion
+
+collider and rigidbody for soccer, because it is affected by the collusion from player
+
+collider(isTriger) and rigidbody(kinetic) for goal, because it is used to detect the soccer and let the soccer comes across it.
+
+2 I mistakenly used a collide detector instead of Triger detector in the code for soccer, so it didn't work initially, then I check the script form pizza in WK2 to fix it.
