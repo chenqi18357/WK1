@@ -43,3 +43,31 @@ collider and rigidbody for soccer, because it is affected by the collusion from 
 collider(isTriger) and rigidbody(kinetic) for goal, because it is used to detect the soccer and let the soccer comes across it.
 
 2 I mistakenly used a collide detector instead of Triger detector in the code for soccer, so it didn't work initially, then I check the script form pizza in WK2 to fix it.
+
+### Devlog WK5
+
+1
+
+_moveSpeed : control the speed of the navMesh agent
+
+_turnSpeed : control the angularSpeed (turning speed) of the newMesh agent
+
+_animator : refer to the animator of the deer
+
+_agent : refer and control the newMesh agent
+
+_target : refer the target of newMesh agent
+
+2
+
+Start(),Update(),NavMeshAgent.SetDestination(),Animator.SetBool()
+
+3
+
+Start() : set the speed and angularSpeed of newMesh angent
+
+Update() : set the target of newMesh agent and change the status of animator per frame
+
+NavMeshAgent.SetDestination() : set the destination of nevMesh agent
+
+Animator.SetBool() : change the status of animator
