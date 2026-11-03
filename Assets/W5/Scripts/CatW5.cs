@@ -44,7 +44,14 @@ public class CatW5 : MonoBehaviour
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
         Vector3 translation = Vector3.zero;
-        
+        if (Input.GetKey(KeyCode.W))
+        {
+            translation = Vector3.forward;
+        }else if (Input.GetKey(KeyCode.S))
+        {
+            translation = Vector3.back;
+        }
+        gameObject.transform.Translate((_flipWSControls ? -translation : translation )* Time.deltaTime * _moveSpeed);
 
 
         // STEP 1 & 2 ---------------------------------------------------------

@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -110,6 +111,6 @@ public class SoccerBall : MonoBehaviour
     private void Update()
     {
         time += Time.deltaTime;
-        _timeText.text= $"time since last goal: {time}";
+        _timeText.text= $"time since last goal: {Math.Round( time,2)}";
     }
 }
