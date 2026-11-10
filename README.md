@@ -71,3 +71,25 @@ Update() : set the target of newMesh agent and change the status of animator per
 NavMeshAgent.SetDestination() : set the destination of nevMesh agent
 
 Animator.SetBool() : change the status of animator
+
+### Devlog WK7
+
+Link: https://docs.google.com/document/d/1crDX6_ljdbrT8OOdQbNwN7QxS_CrQY8VUW1fGK32XYQ/edit?usp=sharing
+
+1
+
+[SerializeField] float speed : to edit the speed that bats moves to player in the Inspector
+
+private Vector3 playerPos = Vector3.zero : the position of player, will be changed by startChasing(Vector3 _playerPos)
+
+float currentSpeed = 0f : current speed
+
+2
+
+public Vector3 getPos() : return position of bat
+
+private void Update() : move the bat toward playerPos based on the current speed
+
+public void startChasing(Vector3 _playerPos) : set the currentSpeed to speed and playerPos to _playerPos
+
+public void stopChasing() : set the currentSpeed to zero
