@@ -72,7 +72,7 @@ NavMeshAgent.SetDestination() : set the destination of nevMesh agent
 
 Animator.SetBool() : change the status of animator
 
-### Devlog WK7
+### Devlog WK6
 
 Link: https://docs.google.com/document/d/1crDX6_ljdbrT8OOdQbNwN7QxS_CrQY8VUW1fGK32XYQ/edit?usp=sharing
 
@@ -93,3 +93,7 @@ private void Update() : move the bat toward playerPos based on the current speed
 public void startChasing(Vector3 _playerPos) : set the currentSpeed to speed and playerPos to _playerPos
 
 public void stopChasing() : set the currentSpeed to zero
+
+### Devlog WK7
+
+The original code use a Vector3.forward to get the forward of world position, but what we need is the forward of local position of the game object, so we should use a transform.postition instead.
